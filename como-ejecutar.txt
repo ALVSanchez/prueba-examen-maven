@@ -1,0 +1,4 @@
+Ejecutar el ejercicio 1 con argumentos "argumento1", "argumento2":
+    mvn exec:java -Dexec.mainClass=com.examen.ejercicio1.Main -Dexec.args="'argumento 1' 'argumento 2'"
+
+hace falta instalar maven (con apt) y estar ubicado en la misma carpeta que pom.xml en la terminal
