@@ -11,6 +11,10 @@ public class Receptor {
     private ArrayList<CuadradoListener> listeners = new ArrayList<>();
 
     private int port;
+    
+    public interface CuadradoListener {
+        public void cuadradoRecibido(String datos);
+    }
 
     Receptor(int port){
         this.port = port;

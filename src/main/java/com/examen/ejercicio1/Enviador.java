@@ -4,6 +4,8 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
+import com.examen.ejercicio1.Receptor.CuadradoListener;
+
 public class Enviador implements CuadradoListener {
 
     private int port;
